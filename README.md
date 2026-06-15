@@ -33,6 +33,18 @@ Prometheus metrics aur Grafana dashboard visualization.
 ![Grafana Dashboard](<img width="950" height="498" alt="Screenshot 2026-06-15 195359" src="https://github.com/user-attachments/assets/9415b4af-2b85-40d4-b2be-39dd2ca17bfd" />
 
 
+### 5. Docker Environment
+Containerized environment jahan Minikube aur hamari services chal rahi hain.
+![Docker Containers]<img width="938" height="551" alt="Screenshot 2026-06-15 203510" src="https://github.com/user-attachments/assets/80da350c-3248-4786-b8d2-592cc6d89616" />
+
+
+### 6. MLOps Experiment Tracking
+MLflow dashboard ka use karte hue model performance aur versioning ka tracking.
+![MLflow Tracking]<img width="956" height="524" alt="Screenshot 2026-06-15 203412" src="https://github.com/user-attachments/assets/02a86974-a085-438a-ab79-67b1b8c7e831" />
+
+
+
+
 ---
 
 ## 🚀 How to Run
