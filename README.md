@@ -1,3 +1,4 @@
+<img width="950" height="540" alt="Screenshot 2026-06-15 203737" src="https://github.com/user-attachments/assets/d710292b-dbdd-47dc-a3e5-951b0b33853e" />
 # 🚀 Fraud Detection MLOps Pipeline
 
 Ek end-to-end MLOps pipeline jo real-time fraud detection ke liye machine learning model ko automate karti hai.
