@@ -15,7 +15,8 @@ Ek end-to-end MLOps pipeline jo real-time fraud detection ke liye machine learni
 
 ### 1. Jenkins CI/CD Pipeline Success
 Pipeline ka successful build status.
-![Jenkins Success](INSERT_IMAGE_LINK_OR_PATH_HERE)
+![Jenkins Success]<img width="944" height="515" alt="Screenshot 2026-06-15 225640" src="https://github.com/user-attachments/assets/2e425ad1-32f6-42b3-a82a-7f0a2fd9dcf1" />
+
 
 ### 2. Kubernetes Deployment Status
 Kubernetes pods successfully running.
