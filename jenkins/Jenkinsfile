@@ -5,11 +5,14 @@ pipeline {
             steps {
                 echo 'Pulling Code From Version Control Repository...'
             }
+       stage('Build Docker Image') {
+    steps {
+        script {
+            // Ensure you are in the directory where Dockerfile exists
+            sh 'docker build -t fraud-prediction-api:latest .'
         }
-        stage('Build Docker Image') {
-            steps {
-                sh 'docker build -t fraud-prediction-api:latest .'
-            }
+    }
+}
         }
         stage('Test Pipeline API') {
             steps {
