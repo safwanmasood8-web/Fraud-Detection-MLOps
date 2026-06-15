@@ -1,22 +1,40 @@
-# Fraud Detection MLOps Pipeline
+# 🚀 Fraud Detection MLOps Pipeline
 
-Yeh project ek automated CI/CD pipeline hai jo machine learning model ki deployment ko manage karti hai.
+Ek end-to-end MLOps pipeline jo real-time fraud detection ke liye machine learning model ko automate karti hai.
 
-## Pipeline Architecture
+## 🛠 Project Architecture
 
-
-## Features
-- **Automated Build:** Docker image build hoti hai.
-- **Continuous Deployment:** Kubernetes (k8s) ke zariye automatically deploy hoti hai.
-- **Version Control:** Git ke zariye code management.
-
-## Project Status
-Pipeline Status: ![Pipeline Success](Yahan_Apni_Image_Ka_Link_Ya_Path_Do)
-
-## How to use:
-1. Jenkins container ko setup karo.
-2. `Jenkinsfile` ko pipeline mein point karo.
-3. Git push karo aur magic dekho!
+## 📋 Key Achievements
+- **CI/CD Pipeline:** Fully automated pipeline via Jenkins (Build -> Test -> Deploy).
+- **Orchestration:** Kubernetes (Minikube) par deployment.
+- **Monitoring:** Prometheus aur Grafana ke zariye real-time performance tracking.
 
 ---
-*Created by Safwan Masood*
+
+## 📸 Project Snapshots
+
+### 1. Jenkins CI/CD Pipeline Success
+Pipeline ka successful build status.
+![Jenkins Success](INSERT_IMAGE_LINK_OR_PATH_HERE)
+
+### 2. Kubernetes Deployment Status
+Kubernetes pods successfully running.
+![K8s Pods](INSERT_IMAGE_LINK_HERE)
+
+### 3. API Testing & Response
+FastAPI endpoint ka successful response (`200 OK`).
+![API Testing](INSERT_IMAGE_LINK_HERE)
+
+### 4. Real-time Monitoring (Grafana)
+Prometheus metrics aur Grafana dashboard visualization.
+![Grafana Dashboard](INSERT_IMAGE_LINK_HERE)
+
+---
+
+## 🚀 How to Run
+1. Docker Desktop aur Minikube start karein.
+2. Jenkins pipeline ko trigger karein.
+3. `/predict` endpoint par request bhejein aur fraud prediction check karein.
+
+---
+*Developed by Safwan Masood*
