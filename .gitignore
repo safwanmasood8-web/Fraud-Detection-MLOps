@@ -1,1 +1,7 @@
-"venv/" 
+venv/
+__pycache__/
+mlflow.db
+.terraform/
+.terraform.lock.hcl
+*.pyc
+-p/
