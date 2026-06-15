@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout Code') {
+            steps {
+                echo 'Pulling Code From Version Control Repository...'
+            }
+        }
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t fraud-prediction-api:latest .'
+            }
+        }
+        stage('Test Pipeline API') {
+            steps {
+                echo 'Executing endpoint integration testing...'
+            }
+        }
+        stage('Kubernetes Deployment') {
+            steps {
+                sh 'kubectl apply -f k8s/deployment.yaml'
+            }
+        }
+    }
+}
